@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border border-box;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: #8c5c5c;
+    color: #eee;
+    font-size: 12px;
+}
+
+header {
+    width: 80%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    z-index: 2;
+    margin: auto;
+
+}
+
+
+header a {
+    color: #eee;
+    margin-right: 40px;
+    font: 300px;
+}
+
+
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    margin-top: -50px;
+    overflow: hidden;
+}
+
+.container .list .list-item {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    overflow: hidden;
+}
+
+
+h2 {
+    position: absolute;
+    top: 10%;
+    right: -20%;
+    padding-right: 30%;
+    width: 80%;
+    color: #eee;
+    font-size: 40px;
+
+}
+
+p {
+    position: absolute;
+    top: 20%;
+    right: -20%;
+    padding-right: 30%;
+    width: 80%;
+    color: #eee;
+}
+
+
+
+.mapa {
+    position: absolute;
+    top: 40%;
+    right: -20%;
+    padding-right: 30%;
+    width: 80%;
+    color: #19ab2f;
+    cursor: pointer;
+
+}
+
+.imagem1 {
+    filter: brightness(50%);
+    object-fit: cover;
+    width: 100%;
+    height: 100%
+}
+
+.imagem2 {
+    filter: brightness(50%);
+    object-fit: cover;
+    width: 100%;
+    height: 100%
+}
+
+.textoculinaria {
+
+    position: absolute;
+    top: 35%;
+    right: -20%;
+    padding-right: 30%;
+    width: 80%;
+    color: #eee;
+    font-size: 12px;
+    text-align: left;
+}
+
+.li {
+    font-size: 17px;
+    color: rgb(20, 173, 220);
+}
+
+.textopontos {
+    position: absolute;
+    top: 19%;
+    right: -20%;
+    padding-right: 30%;
+    width: 80%;
+    color: #eee;
+    font-size: 12px;
+    text-align: left;
+}
+.imagem{
+
+
+    object-fit: cover;
+    width: 100%;
+    height: 100%
+}
+
+
+
+
+
+
+
