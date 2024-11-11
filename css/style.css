@@ -44,6 +44,7 @@ header a {
     height: 100%;
     position: absolute;
     overflow: hidden;
+ 
 }
 
 
@@ -120,12 +121,12 @@ p {
     color: #eee;
     font-size: 12px;
     text-align: left;
+
 }
 .imagem{
-
-
+    
     object-fit: cover;
-    width: 100%;
+    width: 100;
     height: 100%
 }
 
