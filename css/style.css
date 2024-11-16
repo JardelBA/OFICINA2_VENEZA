@@ -1,138 +1,157 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border border-box;
-    text-decoration: none;
-    font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border border-box;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
 }
 
 body {
-    background-color: #8c5c5c;
-    color: #eee;
-    font-size: 12px;
+  background-color: #8c5c5c;
+  color: #eee;
+  font-size: 12px;
 }
 
 header {
-    width: 80%;
-    height: 50px;
-    display: flex;
-    align-items: center;
-    position: relative;
-    z-index: 2;
-    margin: auto;
-
+  width: 80%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  z-index: 2;
+  margin: auto;
 }
-
 
 header a {
-    color: #eee;
-    margin-right: 40px;
-    font: 300px;
+  color: #eee;
+  margin-right: 40px;
+  font: 300px;
 }
 
-
-
 .container {
-    height: 100vh;
-    width: 100vw;
-    margin-top: -50px;
-    overflow: hidden;
+  height: 100vh;
+  width: 100vw;
+  margin-top: -50px;
+  overflow: hidden;
 }
 
 .container .list .list-item {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    overflow: hidden;
- 
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
 }
 
-
 h2 {
-    position: absolute;
-    top: 10%;
-    right: -20%;
-    padding-right: 30%;
-    width: 80%;
-    color: #eee;
-    font-size: 40px;
-
+  position: absolute;
+  top: 10%;
+  right: -20%;
+  padding-right: 30%;
+  width: 80%;
+  color: #eee;
+  font-size: 30px;
 }
 
 p {
-    position: absolute;
-    top: 20%;
-    right: -20%;
-    padding-right: 30%;
-    width: 80%;
-    color: #eee;
+  position: absolute;
+  top: 20%;
+  right: -20%;
+  padding-right: 30%;
+  width: 80%;
+  color: #eee;
 }
 
-
-
 .mapa {
-    position: absolute;
-    top: 40%;
-    right: -20%;
-    padding-right: 30%;
-    width: 80%;
-    color: #19ab2f;
-    cursor: pointer;
-
+  position: absolute;
+  top: 40%;
+  right: -20%;
+  padding-right: 30%;
+  width: 80%;
+  color: #19ab2f;
+  cursor: pointer;
+  font-size: 12px;
 }
 
 .imagem1 {
-    filter: brightness(30%);
-    object-fit: cover;
-    width: 100%;
-    height: 100%
+  filter: brightness(30%);
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
 }
 
 .imagem2 {
-    filter: brightness(50%);
-    object-fit: cover;
-    width: 100%;
-    height: 100%
+  filter: brightness(50%);
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
 }
 
 .textoculinaria {
-
-    position: absolute;
-    top: 35%;
-    right: -20%;
-    padding-right: 30%;
-    width: 80%;
-    color: #eee;
-    font-size: 12px;
-    text-align: left;
+  position: absolute;
+  top: 35%;
+  right: -20%;
+  padding-right: 30%;
+  width: 80%;
+  color: #eee;
+  font-size: 12px;
+  text-align: left;
 }
 
 .li {
-    font-size: 17px;
-    color: rgb(20, 173, 220);
+  font-size: 17px;
+  color: rgb(20, 173, 220);
 }
 
 .textopontos {
-    position: absolute;
-    top: 19%;
-    right: -20%;
-    padding-right: 30%;
-    width: 80%;
+  position: absolute;
+  top: 19%;
+  right: -20%;
+  padding-right: 30%;
+  width: 80%;
+  color: #eee;
+  font-size: 12px;
+  text-align: left;
+}
+.imagem {
+  object-fit: cover;
+  width: 100;
+  height: 100%;
+}
+@media screen and (max-width: 1516px) {
+  body {
+    font-size: 8px;
+  }
+
+  header a {
     color: #eee;
-    font-size: 12px;
-    text-align: left;
+    margin-right: 7px;
+    font: 300px;
+  }
+  p {
+   font-size: 7;
+  }
+
+  h2 {
+   
+    font-size: 25px;
+  }
+  .li {
+    font-size: 14px;
+  }
+  .textoculinaria {
+    top: 39%;
+
+    font-size: 6px;
+  }
+
+  .mapa {
+   
+    top: 55%;
+   
+  }
+  
+
+
+
 
 }
-.imagem{
-    
-    object-fit: cover;
-    width: 100;
-    height: 100%
-}
-
-
-
-
-
-
-

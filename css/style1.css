@@ -1,79 +1,86 @@
-
 * {
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
-    font-family: "Poppins", sans-serif;
-
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
 }
-
 
 body {
-    font-family: Arial, sans-serif;
-    line-height: 2;
-        background-color: #8c5c5c;
-    color: #eee;
-
+  font-family: Arial, sans-serif;
+  line-height: 2;
+  background-color: #8c5c5c;
+  color: #eee;
 }
 
-
 header {
-    background: #8c5c5c;
-    color: #eee;
-    padding: 1rem;
-    height: 30px;
-    margin: auto;
-    width: 80%;
+  background: #8c5c5c;
+  color: #eee;
+  padding: 1rem;
+  height: 30px;
+  margin: auto;
+  width: 80%;
+}
 
+header a {
+  color: #eee;
+  margin-right: 40px;
+  font: 300px;
+}
 
-    }
-
-    header a {
-        color: #eee;
-        margin-right: 40px;
-        font:300px;
-    }
-
-    nav{
-    background-color: #8c5c5c;
-    color: #b61e1e;
-    font-size: 12px;
-
+nav {
+  background-color: #8c5c5c;
+  color: #b61e1e;
+  font-size: 12px;
 }
 
 header h1 {
-    margin-bottom: -3rem;
-    font-size: 40px;
-     text-align:left
-    
+  margin-bottom: -3rem;
+  font-size: 40px;
+  text-align: left;
 }
 
-
-
 main {
-    max-width: 800px;
-    margin: 2rem auto;
-    padding: 0 1rem;
-
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 0 1rem;
 }
 
 .tourist-spot {
-    margin-bottom: 2rem;
-    border: 1px solid #8c5c5c;
-    padding: 1rem;
-    border-radius: 5px;
-    background-color: #8c5c5c;
-    box-shadow: 0 0 10px #8c5c5c(0, 0, 0, 0.1);
+  margin-bottom: 2rem;
+  border: 1px solid #8c5c5c;
+  padding: 1rem;
+  border-radius: 5px;
+  background-color: #8c5c5c;
+  box-shadow: 0 0 10px #8c5c5c(0, 0, 0, 0.1);
 }
 
 .tourist-spot img {
-    width: 100%;
-    height: auto;
-    border-radius: 5px;
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
 }
 
 .tourist-spot h2 {
-    margin-top: 1rem;
-    color: #eee;
+  margin-top: 1rem;
+  color: #eee;
 }
+@media screen and (max-width: 1516px) {
+  nav {
+    font-size: 8px;
+  }
+  header a {
+    margin-right: 20px;
+  }
 
+  header h1 {
+    font-size: 30px;
+  }
+
+  .tourist-spot {
+    margin-bottom: -1rem;
+  }
+
+  .tourist-spot p {
+    font-size: 13px;
+  }
+}
